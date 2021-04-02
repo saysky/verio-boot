@@ -1,12 +1,12 @@
-- 基于SSM（springboot）+JSP+Bootstrap的房屋租赁系统，包含管理员、房东和租客三种角色。
+- 基于SpringBoot+JSP+Bootstrap的房屋租赁系统，包含管理员、房东和租客三种角色。
 - 预览地址：[https://verio.liuyanzhao.com](https://verio.liuyanzhao.com)
 - 详细介绍地址：[https://liuyanzhao.com/shop/verio.html](https://liuyanzhao.com/shop/verio.html)
 
-- 最新消息，该系统已经新增SpringBoot版本。
-- SSM版本地址：[https://github.com/saysky/verio](https://github.com/saysky/verio)
-- 同款SpringBoot版本地址：[https://github.com/saysky/verio-boot](https://github.com/saysky/verio-boot)
-- 当前为springboot版本
-
+- 最新消息(2021/04/02)，该项目包含2个版本，功能界面一模一样，只是改了框架结构
+    - SSM版本地址：[https://github.com/saysky/verio](https://github.com/saysky/verio)
+    - 同款SpringBoot版本地址：[https://github.com/saysky/verio-boot](https://github.com/saysky/verio-boot)
+    
+- 另一个租房系统地址：[SpringBoot 房屋租赁系统Manland3.0﻿](https://liuyanzhao.com/shop/manland.html)
 ## 一、获取代码
 - 需要完整代码联系博主，微信847064370
 
@@ -17,9 +17,7 @@
     - ④ 远程部署 
     - ⑤ 问题解答，秒回
 
-- 如果需要定制(比如改成springboot的)或者加功能，也可以联系博主。
-
-- 另一个租房系统地址：[SpringBoot 房屋租赁系统﻿](https://liuyanzhao.com/shop/manland.html)
+- 如果需要定制加功能，也可以联系博主。
 
 - 最新消息，视频讲解已完成录制，并提交流程图、ER图，欢迎联系博主
 ![视频讲解](img/verio-vedio.png)
