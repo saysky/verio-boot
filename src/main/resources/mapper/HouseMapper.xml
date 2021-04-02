@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.ssm.rental.mapper.HouseMapper">
+
+
+    <!--  查询房子信息，mybatis支持<where>、<if>等标签，&lt;是小于符号，&gt;是大于符号  -->
+    <select id="searchHouse" resultType="com.example.ssm.rental.entity.House">
+        SELECT * FROM t_house
+        <where>
+            1 = 1
+            <if test="houseSearchVO.rentType != null and houseSearchVO.rentType != ''">
+                and rent_type = #{houseSearchVO.rentType}
+            </if>
+            <if test="houseSearchVO.address != null and houseSearchVO.address != ''">
+                and address LIKE CONCAT('%',#{houseSearchVO.address},'%')
+            </if>
+            <if test="houseSearchVO.city != null and houseSearchVO.city != ''">
+                and city LIKE CONCAT('%',#{houseSearchVO.city},'%')
+            </if>
+            <if test="houseSearchVO.minArea != null">
+                and area &gt;= #{houseSearchVO.minArea}
+            </if>
+            <if test="houseSearchVO.maxArea != null">
+                and area &lt;= #{houseSearchVO.maxArea}
+            </if>
+            <if test="houseSearchVO.minPrice != null">
+                and month_rent &gt;= #{houseSearchVO.minPrice}
+            </if>
+            <if test="houseSearchVO.maxPrice != null">
+                and month_rent &lt;= #{houseSearchVO.maxPrice}
+            </if>
+            <if test="houseSearchVO.status != null and houseSearchVO.status != -1">
+                and status = #{houseSearchVO.status}
+            </if>
+        </where>
+    </select>
+
+
+</mapper>
