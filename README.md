@@ -1,5 +1,5 @@
 - 基于SpringBoot+JSP+Bootstrap的房屋租赁系统，包含管理员、房东和租客三种角色。
-- 预览地址：[https://verio.liuyanzhao.com](https://verio.liuyanzhao.com)
+- 预览地址：[http://verio.liuyanzhao.com](http://verio.liuyanzhao.com)
 - 详细介绍地址：[https://liuyanzhao.com/shop/verio.html](https://liuyanzhao.com/shop/verio.html)
 
 - 最新消息(2021/04/02)，该项目包含2个版本，功能界面一模一样，只是改了框架结构
