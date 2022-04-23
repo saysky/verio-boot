@@ -1,3 +1,4 @@
+- 最新消息，2022年4月23 verio迎来重大更新 [2022年4月最新基于SpringBoot/SSM的房屋租赁系统 Rello](https://github.com/saysky/rello-ssm)
 - 最新消息 2022 最新租房系统地址：[2022 基于SpringBoot的房屋租赁平台 房屋展示平台 留学生房屋租赁平台](https://github.com/saysky/HouseKey)
 - 基于SpringBoot+JSP+Bootstrap的房屋租赁系统，包含管理员、房东和租客三种角色。
 - 预览地址：[http://verio.liuyanzhao.com](http://verio.liuyanzhao.com)
