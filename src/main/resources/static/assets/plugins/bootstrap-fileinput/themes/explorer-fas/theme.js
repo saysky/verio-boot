@@ -68,4 +68,3 @@
         uploadIcon: '<i class="fas fa-upload"></i>',
         msgValidationErrorIcon: '<i class="fas fa-exclamation-circle"></i> '
     };
-})(window.jQuery);

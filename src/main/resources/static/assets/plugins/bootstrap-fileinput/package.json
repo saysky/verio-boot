@@ -45,4 +45,3 @@
     "scripts": {
         "postinstall": "opencollective-postinstall || true"
     }
-}

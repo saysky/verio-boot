@@ -1430,4 +1430,3 @@ Initial release. The following features are included in this release:
 - Upload action defaults to form submit. Supports an upload route/server action parameter for custom ajax based upload.
 - Triggers JQuery events for advanced development. Events currently available are `filereset` and `fileclear`.
 - Disabled and readonly file input support.
-- Size of the entire plugin is less than 11KB (about 9KB for the minified JS and 2KB for the minified CSS).

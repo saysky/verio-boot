@@ -109,4 +109,3 @@
             close: 'Uždaryti detalią peržiūrą'
         }
     };
-})(window.jQuery);

@@ -108,4 +108,3 @@
             close: 'Stäng detaljerad förhandsgranskning'
         }
     };
-})(window.jQuery);

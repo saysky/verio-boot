@@ -63,4 +63,3 @@ public enum OrderStatusEnum {
     public void setValue(Integer value) {
         this.value = value;
     }
-}

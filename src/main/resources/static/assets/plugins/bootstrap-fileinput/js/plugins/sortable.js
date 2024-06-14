@@ -3706,4 +3706,3 @@
 
   return Sortable;
 
-}));

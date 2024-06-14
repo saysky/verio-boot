@@ -109,4 +109,3 @@
             close: 'Close detailed preview'
         }
     };
-})(window.jQuery);

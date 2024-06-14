@@ -108,4 +108,3 @@
             close: 'Detaylı önizlemeyi kapat'
         }
     };
-})(window.jQuery);

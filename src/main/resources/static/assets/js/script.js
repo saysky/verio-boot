@@ -607,4 +607,3 @@ function endOrderReject(id) {
         }
     });
 
-}
